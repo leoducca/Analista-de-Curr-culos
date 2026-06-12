@@ -1,1 +1,0 @@
-# Analista-de-Curr-culos
