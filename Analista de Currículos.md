@@ -4,13 +4,16 @@
 !pip install -q google-generativeai
 !pip install -q pypdf python-docx reportlab
 
+# Imports
+
 from google.colab import userdata
 import gradio as gr
 import requests
 import json
-
 from pypdf import PdfReader
 from docx import Document
+
+# Inicio do código
 
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet
